@@ -2,7 +2,9 @@
 int isBig(int s){
   if (s >100){
     std::cout << "this is a pretty big number, want to try a smaller one?" << "\n";
-  }}
+  }
+  return 0;
+}
 int main()
 {
   std::cout << "Hello World!" << std::endl;
